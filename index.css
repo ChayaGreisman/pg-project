@@ -1,0 +1,139 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-size: 7vw;
+}
+
+h2{
+    font-size: 4vw;
+    font-weight: 200;
+}
+
+.logo-div{
+    text-align: center;
+}
+
+.logo{
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+@media (min-width: 300px){
+    .hero-image{
+        background-image: url('hero-image-mobile.jpg');
+    }  
+}
+
+@media (min-width: 1000px){
+    .hero-image{
+        background-image: url('hero-image-desktop.jpg');
+    }  
+}
+
+@media (min-width: 300px){
+    .bamboo-image{
+        background-image: url('bamboo-mobile.jpg');
+    }  
+}
+
+@media (min-width: 1000px){
+    .bamboo-image{
+        background-image: url('bamboo-desktop.jpg');
+    }  
+}
+
+@media (min-width: 300px){
+    .pad-image{
+        background-image: url('pad-detail-mobile.jpg');
+    }  
+}
+
+@media (min-width: 1000px){
+    .pad-image{
+        background-image: url('pad-detail-desktop.jpg');
+    }  
+}
+
+@media (min-width: 300px){
+    .hand-pad{
+        background-image: url('pad-hand-mobile.jpg');
+    }  
+}
+
+@media (min-width: 1000px){
+    .hand-pad{
+        background-image: url('pad-hand-desktop.jpg');
+    }  
+}
+
+@media (min-width: 300px){
+    .pg-banner{
+        background-image: url('pg-mobile.jpg');
+    }  
+}
+
+@media (min-width: 1000px){
+    .pg-banner{
+        background-image: url('pg-desktop.jpg');
+    }  
+}
+
+.hero-image{
+    padding: 1%;
+}
+
+.bamboo-image{
+    color: white;
+    padding: 10%;
+}
+
+#pad-image{
+    padding-top: 15%;
+    padding-right: 20%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+.hand-pad{
+    line-height: 150%;
+    padding: 5%;
+}
+
+.pg-banner{
+    padding:5%;
+}
+
+
+.box-text-image{
+    margin: 1%;
+    text-align: center;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.shop-now-button{
+    border: none;
+    color: white;
+    background-color: #F1896A;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.small-title-bold{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.product-break-div{
+    padding: 15%;
+    text-align: center;
+}   
+
+.product-img{
+    width: 100%
+}
+
+
